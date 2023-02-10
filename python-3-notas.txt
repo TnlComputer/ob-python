@@ -1,0 +1,50 @@
+python3
+
+introduccion a Puthon
+
+Python es un lenguaje interpretado
+quit() o ctrl-d para salir
+
+PyGTK libreria de python para librerias graficas
+
+PyQT otra libreria para Python
+
+wxPython para libreria grafica  de usuarios
+
+usan GTK
+
+las mas usasda tkinter, conector entre Python y tk
+
+Django y flask son las frameworks mas utilizadas con Python y recomiendan aprenderlo
+
+psycopg y PyGreSQL para acceder a base de datos
+
+pandas libreria para usar excel directamente
+
+***************************************************************
+
+donde buscar las librerias 
+www.pypi.org
+
+para instalar paquetes se usa pip
+
+pip install -U flask
+
+para instalar paquetes que tenemos requerimientos de la version, eso tiene un archivos requeriments.txt y se usa asi:
+pip install -r requeriments.txt
+
+pipenv
+
+pip install pipenv
+
+ asi podemos trabajar con distintas configuraciones dependiendo lo que necesitemos en cada proyecyto
+
+ esto se instala en cada proyecyto
+
+ pipenv
+ 
+
+
+
+
+
