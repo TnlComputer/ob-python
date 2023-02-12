@@ -42,9 +42,148 @@ pip install pipenv
  esto se instala en cada proyecyto
 
  pipenv
- 
 
 
+ ******************************************
+
+ mutables e inmutables
+ los valores numericos son inmutables
+ los cadenas de texto son inmutables
+ las tuplas son inmutables
+
+las listas son mutables
 
 
+listas van entre []
+tuplas van entre ()
 
+ python es dinamico
+
+diccionario en python
+
+diccionario = {
+  'clave': 'valor',
+  'clave':15
+}
+
+prin(diccionario)
+
+print(diccionario['clave2'])
+
+cambiar valor en un diccionario
+diccionario['clave2']= 99
+
+como eliminar datos en el diccionario
+diccionario.pop('clave1')
+diccionario.del('clave2')
+
+conjuntos: o mejor llamados SET
+conjunto = {1,2,3}
+print(conjunto)
+en el conjunto no se puede repetir lo que se ingresa, si hay un 1, otro uno no puede tener, no lo agrega.
+
+a={0,2,4,6,8}
+b={1,2,3,4,5}
+
+a | b     # se genera la lista de los que no se repiten entre ambos (a y b)
+a & b   # interseccion, cuales se repiten de 2 SET (a y b)
+a - b    # son los que no estan del primer SET  (a)
+a ^ b   # da la lista de todos los que no se repiten entre los SET (a y b)
+
+en Texto tenemo
+
+variable.capitalize() //#pone la primer letra en Mayusculas y el resto en minusculas independientemente de como la hayamos escrito
+
+Ejemplo mitexto="hola Quien sos"
+mitexto.capitalize() saldria 'Hola, quien sos'
+
+mitexto.title()    # La primer letra de cada palabra en Mayusculas
+mitexto.lower() #todo en minusculas
+mitextoupper() # Todo en Mayusculas
+
+mitexto.replace('a', 'o') # Reemplaza las a por o
+mitexto.find("quien")   # Busca esa palabra y te dice en que posicion comienza la palabra
+
+mitexto.split() # hace una lista por cada palabra
+mitexto.split(',') # hace una lista por cada coma que hay.
+mitexto.replace(',', ' ') # reemplaza la coma por un espacio
+
+ademas podes contatenar las funciones
+
+mitexto.replace(',', ' ').lower().split() # Saca las comas, convierte todo a minusculas y genera una lista por cada palabra
+
+
+' '.join(listatexto) une 
+
+****************************************************************
+operadores
+
+
+operador de asignacion
+
+variable = 5 # igual es el operador de asignacion
+
+a = 5
+b=4
+a - b # 1
+a * b # 20
+a % b # 1  es el operador de modulo (resto
+a // b # 1 es la parde de la division, no el resto
+
+a ** b # 9 potencia
+
+a+=5 # a=a+5
+a-=5
+a*=b
+a/=b
+a**=b
+
+&=
+|=
+^=
+>>=
+<<=
+y otros que los veremos despues
+comparaciones, identidades y membresias
+los bit: &, |, ^, ~, <<, >>
+
+
+**********************************************************
+
+
+Control de FLujo
+
+if condicion:
+  acciones True o False
+
+  Match e scomo es switches
+
+
+*******************************************************************************
+
+  funciones
+
+  se deben declaran antes de usarlas
+segun la indentacion es lo que define la funcion, si esta mal indentado no funciona
+
+la palabra global dentro de una funcion, hace que la variable la podes utilizar por fuera de la funcion y si existia otra llamada asi, le cambia el valor al nuevo valor de la variable dentro de la funcion
+
+variable SHADOWING
+funciones lambda son funciones anonimas
+
+00:46
+- ¿Qué es un objeto?
+02:36
+- ¿Cómo se crea una clase en Python?
+14:45
+- Clases estáticas
+19:32
+- Herencia
+30:40
+- Constructor
+33:09
+- Destructores
+44:07
+- Clase abstractas
+49:22
+- Relaciones HAS-A
