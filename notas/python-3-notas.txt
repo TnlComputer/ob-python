@@ -187,3 +187,34 @@ funciones lambda son funciones anonimas
 - Clase abstractas
 49:22
 - Relaciones HAS-A
+
+
+constructor
+
+palabra clave para el constructor es __init__
+
+def __init__(self): #constructor
+
+********************************************************
+
+MODULOS
+
+para importar Modulos, ademas del archivo del modulo, tiene que tener otro
+que se tiene que llamar
+__init__.py y estar vacio
+
+si en un import hacen la importacion
+
+from operaciones import * en __init__ necesitamos definirle los paquetes que tiene que importar
+entonces esn el __init__.py, hay que poner lo siguiente
+
+__all__ = ["restador", "sumador"] o como se llame cada funcion dentro del modulo
+************************************************************
+
+leer ficheros
+
+open()      #leer el archivo
+readline() # lee primera linea
+close()     # cierra el archivo
+write()     # escribe en el archiv
+seek()     #  
