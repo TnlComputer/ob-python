@@ -218,3 +218,17 @@ readline() # lee primera linea
 close()     # cierra el archivo
 write()     # escribe en el archiv
 seek()     #  
+
+
+************************************************************
+interfaces graficas
+pypgk
+PyQT
+wxPython
+tkinter
+Tkinter designer 
+
+
+
+geometrias de mainloop()
+
