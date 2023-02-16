@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "py-django",
+      "database": "${workspaceFolder:python}/Django/db.sqlite3"
+    }
+  ]
+}
